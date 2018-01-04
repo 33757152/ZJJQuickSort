@@ -13,6 +13,7 @@
 		89F20B061FFC7834005F0EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F20B051FFC7834005F0EB2 /* Assets.xcassets */; };
 		89F20B091FFC7834005F0EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F20B071FFC7834005F0EB2 /* LaunchScreen.storyboard */; };
 		89F20B0C1FFC7834005F0EB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F20B0B1FFC7834005F0EB2 /* main.m */; };
+		89F20B171FFC795F005F0EB2 /* ZJJSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F20B161FFC795F005F0EB2 /* ZJJSortTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		89F20B081FFC7834005F0EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89F20B0A1FFC7834005F0EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89F20B0B1FFC7834005F0EB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89F20B151FFC795F005F0EB2 /* ZJJSortTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJJSortTool.h; sourceTree = "<group>"; };
+		89F20B161FFC795F005F0EB2 /* ZJJSortTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJSortTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		89F20AFB1FFC7834005F0EB2 /* ZJJQuickSort */ = {
 			isa = PBXGroup;
 			children = (
+				89F20B151FFC795F005F0EB2 /* ZJJSortTool.h */,
+				89F20B161FFC795F005F0EB2 /* ZJJSortTool.m */,
 				89F20AFC1FFC7834005F0EB2 /* AppDelegate.h */,
 				89F20AFD1FFC7834005F0EB2 /* AppDelegate.m */,
 				89F20AFF1FFC7834005F0EB2 /* ViewController.h */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F20B171FFC795F005F0EB2 /* ZJJSortTool.m in Sources */,
 				89F20B011FFC7834005F0EB2 /* ViewController.m in Sources */,
 				89F20B0C1FFC7834005F0EB2 /* main.m in Sources */,
 				89F20AFE1FFC7834005F0EB2 /* AppDelegate.m in Sources */,

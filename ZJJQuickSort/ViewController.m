@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZJJSortTool.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@50,@79,@9,@35,@27,@17,@22,@30,@32,@3,@25, nil];
+    [ZJJSortTool quickSortWithArray:array withLeftIndex:0 withRightIndex:array.count - 1];
+    
+    
+    
 }
 
 
